@@ -1,0 +1,506 @@
+{
+  "users": [
+    {
+      "email": "max.mustermann@example.com",
+      "password": "pass123",
+      "firstName": "Max",
+      "lastName": "Mustermann",
+      "imageUrl": ""
+    },
+    {
+      "email": "sabine.mueller@example.com",
+      "password": "pass456",
+      "firstName": "Sabine",
+      "lastName": "Müller",
+      "imageUrl": ""
+    },
+    {
+      "email": "hans.schmidt@example.com",
+      "password": "pass789",
+      "firstName": "Hans",
+      "lastName": "Schmidt",
+      "imageUrl": ""
+    },
+    {
+      "email": "lisa.meier@example.com",
+      "password": "pass987",
+      "firstName": "Lisa",
+      "lastName": "Meier",
+      "imageUrl": ""
+    },
+    {
+      "email": "alexander.huber@example.com",
+      "password": "pass654",
+      "firstName": "Alexander",
+      "lastName": "Huber",
+      "imageUrl": ""
+    }
+  ],
+  "meals": [
+    {
+      "name": "Gemüsecurry mit Reis",
+      "description": "Ein köstliches Currygericht mit einer Vielzahl von Gemüsesorten und duftendem Reis.",
+      "category": "VEGAN",
+      "price": 8.99,
+      "ingredients": [
+        "Zucchini",
+        "Karotten",
+        "Brokkoli",
+        "Paprika",
+        "Kokosmilch",
+        "Gewürze"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Spaghetti Carbonara",
+      "description": "Klassische Spaghetti Carbonara mit cremiger Sauce, Speck und Parmesankäse.",
+      "category": "MEAT",
+      "price": 10.49,
+      "ingredients": [
+        "Spaghetti",
+        "Speck",
+        "Eier",
+        "Sahne",
+        "Parmesan",
+        "Pfeffer"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Gemischter Salat mit Hähnchenbrust",
+      "description": "Ein frischer Salat mit verschiedenen Blattsalaten, Cherrytomaten und gegrillter Hähnchenbrust.",
+      "category": "MEAT",
+      "price": 9.75,
+      "ingredients": [
+        "Blattsalate",
+        "Cherrytomaten",
+        "Hähnchenbrust",
+        "Dressing"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Penne all'Arrabbiata",
+      "description": "Penne-Nudeln mit einer pikanten Tomatensauce und frischem Basilikum.",
+      "category": "VEGETARIAN",
+      "price": 7.99,
+      "ingredients": [
+        "Penne-Nudeln",
+        "Tomatensauce",
+        "Knoblauch",
+        "Olivenöl",
+        "Chilischoten"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Rinderroulade mit Rotkohl",
+      "description": "Zarte Rinderrouladen gefüllt mit Zwiebeln und Senf, serviert mit Rotkohl und Kartoffelpüree.",
+      "category": "MEAT",
+      "price": 12.99,
+      "ingredients": [
+        "Rinderrouladen",
+        "Zwiebeln",
+        "Senf",
+        "Rotkohl",
+        "Kartoffelpüree"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Kürbissuppe mit Ingwer",
+      "description": "Wärmende Kürbissuppe mit einem Hauch von frischem Ingwer.",
+      "category": "VEGAN",
+      "price": 6.49,
+      "ingredients": [
+        "Kürbis",
+        "Ingwer",
+        "Gemüsebrühe",
+        "Kokosmilch",
+        "Koriander"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Griechischer Bauernsalat",
+      "description": "Klassischer griechischer Salat mit Gurken, Tomaten, Oliven, Feta-Käse und Dressing.",
+      "category": "VEGETARIAN",
+      "price": 8.25,
+      "ingredients": ["Gurken", "Tomaten", "Oliven", "Feta-Käse", "Dressing"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Linsencurry mit Naan-Brot",
+      "description": "Würziges Linsencurry mit frischem Naan-Brot zum Dippen.",
+      "category": "VEGAN",
+      "price": 9.49,
+      "ingredients": [
+        "Linsen",
+        "Currypaste",
+        "Kokosmilch",
+        "Naan-Brot",
+        "Koriander"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Schweinebraten mit Knödeln",
+      "description": "Saftiger Schweinebraten mit hausgemachten Semmelknödeln und dunkler Bratensauce.",
+      "category": "MEAT",
+      "price": 11.99,
+      "ingredients": [
+        "Schweinebraten",
+        "Semmelknödel",
+        "Bratensauce",
+        "Rotkohl"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Caprese-Salat",
+      "description": "Einfacher und erfrischender Caprese-Salat mit Mozzarella, Tomaten, Basilikum und Balsamico-Dressing.",
+      "category": "VEGETARIAN",
+      "price": 6.99,
+      "ingredients": [
+        "Mozzarella",
+        "Tomaten",
+        "Basilikum",
+        "Balsamico-Dressing"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Gemüsepfanne mit Tofu",
+      "description": "Würzige Gemüsepfanne mit knusprig gebratenem Tofu und Sojasauce.",
+      "category": "VEGAN",
+      "price": 8.75,
+      "ingredients": ["Gemüse", "Tofu", "Sojasauce", "Reis"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Wiener Schnitzel mit Kartoffelsalat",
+      "description": "Knusprig paniertes Wiener Schnitzel mit hausgemachtem Kartoffelsalat.",
+      "category": "MEAT",
+      "price": 13.25,
+      "ingredients": ["Kalbfleisch", "Panade", "Kartoffeln", "Salat"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Kartoffelsuppe mit Speck",
+      "description": "Wärmende Kartoffelsuppe mit knusprigem Speck als Topping.",
+      "category": "MEAT",
+      "price": 6.99,
+      "ingredients": ["Kartoffeln", "Speck", "Gemüsebrühe", "Sahne", "Lauch"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Ratatouille mit Baguette",
+      "description": "Klassisches provenzalisches Gemüsegericht mit Tomaten, Zucchini, Auberginen und Paprika, serviert mit frischem Baguette.",
+      "category": "VEGAN",
+      "price": 9.49,
+      "ingredients": [
+        "Tomaten",
+        "Zucchini",
+        "Auberginen",
+        "Paprika",
+        "Knoblauch",
+        "Baguette"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Cordon Bleu mit Pommes",
+      "description": "Saftiges Cordon Bleu gefüllt mit Schinken und Käse, dazu knusprige Pommes frites.",
+      "category": "MEAT",
+      "price": 12.99,
+      "ingredients": [
+        "Schweinefleisch",
+        "Schinken",
+        "Käse",
+        "Panade",
+        "Pommes frites"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Quinoa-Salat mit Avocado",
+      "description": "Fruchtiger Quinoa-Salat mit Avocado, Mango und einem leichten Dressing.",
+      "category": "VEGAN",
+      "price": 8.49,
+      "ingredients": ["Quinoa", "Avocado", "Mango", "Dressing"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Lasagne al Forno",
+      "description": "Klassische Lasagne mit Schichten von Nudeln, Hackfleischsauce, Bechamelsauce und Käse überbacken.",
+      "category": "MEAT",
+      "price": 11.75,
+      "ingredients": [
+        "Lasagneblätter",
+        "Hackfleischsauce",
+        "Bechamelsauce",
+        "Käse"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Gebackener Camembert mit Preiselbeeren",
+      "description": "Knusprig gebackener Camembert mit süßen Preiselbeeren als Dip.",
+      "category": "VEGETARIAN",
+      "price": 9.99,
+      "ingredients": ["Camembert", "Panade", "Preiselbeeren"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Thailändisches Gemüsecurry",
+      "description": "Exotisches Gemüsecurry mit Kokosmilch, Limettenblättern und frischen Kräutern.",
+      "category": "VEGAN",
+      "price": 10.25,
+      "ingredients": [
+        "Gemüse",
+        "Currypaste",
+        "Kokosmilch",
+        "Limettenblätter",
+        "Kräuter"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Sauerbraten mit Rotkohl",
+      "description": "Traditioneller Sauerbraten mit saftigem Fleisch, serviert mit Rotkohl und Klößen.",
+      "category": "MEAT",
+      "price": 13.49,
+      "ingredients": ["Rindfleisch", "Marinade", "Rotkohl", "Klöße"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Griechischer Gyros-Teller",
+      "description": "Saftiges Gyros-Fleisch mit Tzatziki, Tomaten, Zwiebeln und Pommes frites.",
+      "category": "MEAT",
+      "price": 9.99,
+      "ingredients": [
+        "Gyros-Fleisch",
+        "Tzatziki",
+        "Tomaten",
+        "Zwiebeln",
+        "Pommes frites"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Tomaten-Mozzarella-Salat",
+      "description": "Erfrischender Salat mit Tomaten, Mozzarella und Basilikum, mariniert mit Olivenöl und Balsamico.",
+      "category": "VEGETARIAN",
+      "price": 7.49,
+      "ingredients": [
+        "Tomaten",
+        "Mozzarella",
+        "Basilikum",
+        "Olivenöl",
+        "Balsamico"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "name": "Falafel mit Hummus",
+      "description": "Knusprige Falafelbällchen mit cremigem Hummus und Fladenbrot.",
+      "category": "VEGAN",
+      "price": 8.75,
+      "ingredients": ["Falafel", "Hummus", "Fladenbrot", "Salat"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Käsespätzle mit Röstzwiebeln",
+      "description": "Deftige Käsespätzle mit würzigem Bergkäse und knusprigen Röstzwiebeln.",
+      "category": "VEGETARIAN",
+      "price": 9.25,
+      "ingredients": ["Spätzle", "Käse", "Röstzwiebeln"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Hähnchen-Gemüsepfanne",
+      "description": "Saftige Hähnchenbruststreifen mit buntem Gemüse in einer leichten Sauce.",
+      "category": "MEAT",
+      "price": 9.99,
+      "ingredients": ["Hähnchenbrust", "Gemüse", "Sauce"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Sommerlicher Quinoasalat",
+      "description": "Frischer Quinoasalat mit Gurken, Paprika, Minze und einem Zitronen-Dressing.",
+      "category": "VEGAN",
+      "price": 8.49,
+      "ingredients": ["Quinoa", "Gurken", "Paprika", "Minze", "Zitrone"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Wiener Schnitzel mit Kartoffelsalat",
+      "description": "Klassisches Wiener Schnitzel mit knusprigem Kartoffelsalat.",
+      "category": "MEAT",
+      "price": 12.49,
+      "ingredients": ["Kalbfleisch", "Panade", "Kartoffelsalat"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Linsensuppe mit Würstchen",
+      "description": "Herzhafte Linsensuppe mit deftigen Würstchen und Gemüse.",
+      "category": "MEAT",
+      "price": 7.75,
+      "ingredients": ["Linsen", "Würstchen", "Gemüse"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Falafel Wrap mit Tahini-Sauce",
+      "description": "Köstlicher Falafel-Wrap mit frischem Gemüse und cremiger Tahini-Sauce.",
+      "category": "VEGAN",
+      "price": 8.99,
+      "ingredients": ["Falafel", "Wrap", "Tahini-Sauce", "Gemüse"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Griechischer Bauernsalat",
+      "description": "Traditioneller griechischer Bauernsalat mit Gurken, Tomaten, Oliven und Feta-Käse.",
+      "category": "VEGETARIAN",
+      "price": 8.25,
+      "ingredients": ["Gurken", "Tomaten", "Oliven", "Feta-Käse", "Dressing"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Ratatouille mit Kräuterbaguette",
+      "description": "Würziges Ratatouille mit frischem Kräuterbaguette.",
+      "category": "VEGAN",
+      "price": 9.75,
+      "ingredients": ["Gemüse", "Tomaten", "Kräuterbaguette"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Gnocchi mit Pesto",
+      "description": "Zarte Gnocchi mit hausgemachtem Pesto und Parmesankäse.",
+      "category": "VEGETARIAN",
+      "price": 8.49,
+      "ingredients": ["Gnocchi", "Pesto", "Parmesan"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Gebratener Lachs mit Gemüse",
+      "description": "Saftig gebratener Lachs mit einer Auswahl an saisonalem Gemüse.",
+      "category": "MEAT",
+      "price": 14.99,
+      "ingredients": ["Lachsfilet", "Gemüse"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Kartoffelgratin mit Broccoli",
+      "description": "Köstliches Kartoffelgratin mit würzigem Broccoli.",
+      "category": "VEGETARIAN",
+      "price": 9.49,
+      "ingredients": ["Kartoffeln", "Broccoli", "Käse", "Sahne"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Gemüseburger mit Süßkartoffel-Pommes",
+      "description": "Saftiger Gemüseburger mit einer Beilage aus knusprigen Süßkartoffel-Pommes.",
+      "category": "VEGAN",
+      "price": 10.25,
+      "ingredients": ["Gemüseburger", "Brötchen", "Süßkartoffeln"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Gyros-Pfanne mit Tzatziki",
+      "description": "Knuspriges Gyros mit frischem Gemüse und cremigem Tzatziki.",
+      "category": "MEAT",
+      "price": 11.75,
+      "ingredients": ["Gyros", "Gemüse", "Tzatziki"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Mediterraner Nudelsalat",
+      "description": "Fruchtiger Nudelsalat mit Tomaten, Oliven, Feta-Käse und einem mediterranen Dressing.",
+      "category": "VEGETARIAN",
+      "price": 7.99,
+      "ingredients": ["Nudeln", "Tomaten", "Oliven", "Feta-Käse", "Dressing"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Hähnchenschnitzel mit Pommes",
+      "description": "Knusprig gebratenes Hähnchenschnitzel mit goldenen Pommes frites.",
+      "category": "MEAT",
+      "price": 10.99,
+      "ingredients": ["Hähnchenschnitzel", "Panade", "Pommes frites"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Kichererbsencurry mit Basmatireis",
+      "description": "Aromatisches Kichererbsencurry mit duftendem Basmatireis.",
+      "category": "VEGAN",
+      "price": 9.25,
+      "ingredients": ["Kichererbsen", "Currypaste", "Basmatireis"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Pizza Margherita",
+      "description": "Klassische Pizza mit Tomatensauce, Mozzarella und Basilikum.",
+      "category": "VEGETARIAN",
+      "price": 8.75,
+      "ingredients": ["Pizza Teig", "Tomatensauce", "Mozzarella", "Basilikum"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Rinderbraten mit Rotweinsauce",
+      "description": "Saftiger Rinderbraten mit einer köstlichen Rotweinsauce und Beilagen nach Wahl.",
+      "category": "MEAT",
+      "price": 14.49,
+      "ingredients": ["Rinderbraten", "Rotweinsauce", "Beilagen"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Gemüse-Pfannkuchen",
+      "description": "Fluffige Pfannkuchen gefüllt mit einer Auswahl an frischem Gemüse.",
+      "category": "VEGETARIAN",
+      "price": 9.49,
+      "ingredients": ["Pfannkuchen", "Gemüse"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Falafel-Salat mit Joghurtdressing",
+      "description": "Knackiger Salat mit gebratenen Falafelbällchen und cremigem Joghurtdressing.",
+      "category": "VEGAN",
+      "price": 9.99,
+      "ingredients": ["Salat", "Falafel", "Joghurtdressing"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Kartoffel-Rucola-Pfanne",
+      "description": "Knusprige Kartoffeln mit frischem Rucola und einem Hauch von Zitrone.",
+      "category": "VEGETARIAN",
+      "price": 8.99,
+      "ingredients": ["Kartoffeln", "Rucola", "Zitrone"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Gyros Wrap mit Tzatziki",
+      "description": "Leckerer Gyros-Wrap mit frischem Gemüse und cremigem Tzatziki.",
+      "category": "MEAT",
+      "price": 9.75,
+      "ingredients": ["Gyros", "Wrap", "Tzatziki", "Gemüse"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Kürbisrisotto mit Parmesan",
+      "description": "Cremiges Kürbisrisotto mit geriebenem Parmesan und frischen Kräutern.",
+      "category": "VEGETARIAN",
+      "price": 10.25,
+      "ingredients": ["Kürbis", "Risotto-Reis", "Parmesan", "Kräuter"],
+      "imageUrl": ""
+    },
+    {
+      "name": "Gebratene Forelle mit Petersilienkartoffeln",
+      "description": "Knusprig gebratene Forelle mit duftenden Petersilienkartoffeln.",
+      "category": "MEAT",
+      "price": 13.99,
+      "ingredients": ["Forelle", "Petersilienkartoffeln", "Gemüse"],
+      "imageUrl": ""
+    }
+  ]
+}
