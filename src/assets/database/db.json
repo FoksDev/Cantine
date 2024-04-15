@@ -50,7 +50,7 @@
         "Kokosmilch",
         "Gewürze"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Spaghetti Carbonara",
@@ -65,7 +65,7 @@
         "Parmesan",
         "Pfeffer"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/6223191/pexels-photo-6223191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Gemischter Salat mit Hähnchenbrust",
@@ -78,7 +78,7 @@
         "Hähnchenbrust",
         "Dressing"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/5639360/pexels-photo-5639360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Penne all'Arrabbiata",
@@ -92,21 +92,7 @@
         "Olivenöl",
         "Chilischoten"
       ],
-      "imageUrl": ""
-    },
-    {
-      "name": "Rinderroulade mit Rotkohl",
-      "description": "Zarte Rinderrouladen gefüllt mit Zwiebeln und Senf, serviert mit Rotkohl und Kartoffelpüree.",
-      "category": "MEAT",
-      "price": 12.99,
-      "ingredients": [
-        "Rinderrouladen",
-        "Zwiebeln",
-        "Senf",
-        "Rotkohl",
-        "Kartoffelpüree"
-      ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/5419330/pexels-photo-5419330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Kürbissuppe mit Ingwer",
@@ -120,7 +106,7 @@
         "Kokosmilch",
         "Koriander"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Griechischer Bauernsalat",
@@ -128,7 +114,7 @@
       "category": "VEGETARIAN",
       "price": 8.25,
       "ingredients": ["Gurken", "Tomaten", "Oliven", "Feta-Käse", "Dressing"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Linsencurry mit Naan-Brot",
@@ -142,7 +128,7 @@
         "Naan-Brot",
         "Koriander"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/15646124/pexels-photo-15646124/free-photo-of-holz-mahlzeit-rustikal-schneidbrett.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Schweinebraten mit Knödeln",
@@ -155,7 +141,7 @@
         "Bratensauce",
         "Rotkohl"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/299347/pexels-photo-299347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Caprese-Salat",
@@ -168,7 +154,7 @@
         "Basilikum",
         "Balsamico-Dressing"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/13241736/pexels-photo-13241736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Gemüsepfanne mit Tofu",
@@ -176,7 +162,7 @@
       "category": "VEGAN",
       "price": 8.75,
       "ingredients": ["Gemüse", "Tofu", "Sojasauce", "Reis"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Wiener Schnitzel mit Kartoffelsalat",
@@ -184,7 +170,7 @@
       "category": "MEAT",
       "price": 13.25,
       "ingredients": ["Kalbfleisch", "Panade", "Kartoffeln", "Salat"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/1352270/pexels-photo-1352270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Kartoffelsuppe mit Speck",
@@ -192,7 +178,7 @@
       "category": "MEAT",
       "price": 6.99,
       "ingredients": ["Kartoffeln", "Speck", "Gemüsebrühe", "Sahne", "Lauch"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/6072108/pexels-photo-6072108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Ratatouille mit Baguette",
@@ -207,7 +193,7 @@
         "Knoblauch",
         "Baguette"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/7439978/pexels-photo-7439978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Cordon Bleu mit Pommes",
@@ -221,7 +207,7 @@
         "Panade",
         "Pommes frites"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/12349437/pexels-photo-12349437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Quinoa-Salat mit Avocado",
@@ -229,7 +215,7 @@
       "category": "VEGAN",
       "price": 8.49,
       "ingredients": ["Quinoa", "Avocado", "Mango", "Dressing"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Lasagne al Forno",
@@ -242,7 +228,7 @@
         "Bechamelsauce",
         "Käse"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/5864352/pexels-photo-5864352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Gebackener Camembert mit Preiselbeeren",
@@ -250,7 +236,7 @@
       "category": "VEGETARIAN",
       "price": 9.99,
       "ingredients": ["Camembert", "Panade", "Preiselbeeren"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/5732760/pexels-photo-5732760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Thailändisches Gemüsecurry",
@@ -264,7 +250,7 @@
         "Limettenblätter",
         "Kräuter"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/17902963/pexels-photo-17902963/free-photo-of-mahlzeit-schussel-suppe-gericht.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Sauerbraten mit Rotkohl",
@@ -272,7 +258,7 @@
       "category": "MEAT",
       "price": 13.49,
       "ingredients": ["Rindfleisch", "Marinade", "Rotkohl", "Klöße"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/7474372/pexels-photo-7474372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Griechischer Gyros-Teller",
@@ -286,7 +272,7 @@
         "Zwiebeln",
         "Pommes frites"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/2098110/pexels-photo-2098110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Tomaten-Mozzarella-Salat",
@@ -300,7 +286,7 @@
         "Olivenöl",
         "Balsamico"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/13270176/pexels-photo-13270176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Falafel mit Hummus",
@@ -308,15 +294,7 @@
       "category": "VEGAN",
       "price": 8.75,
       "ingredients": ["Falafel", "Hummus", "Fladenbrot", "Salat"],
-      "imageUrl": ""
-    },
-    {
-      "name": "Käsespätzle mit Röstzwiebeln",
-      "description": "Deftige Käsespätzle mit würzigem Bergkäse und knusprigen Röstzwiebeln.",
-      "category": "VEGETARIAN",
-      "price": 9.25,
-      "ingredients": ["Spätzle", "Käse", "Röstzwiebeln"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/4046770/pexels-photo-4046770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Hähnchen-Gemüsepfanne",
@@ -324,7 +302,7 @@
       "category": "MEAT",
       "price": 9.99,
       "ingredients": ["Hähnchenbrust", "Gemüse", "Sauce"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/6210876/pexels-photo-6210876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Sommerlicher Quinoasalat",
@@ -332,7 +310,7 @@
       "category": "VEGAN",
       "price": 8.49,
       "ingredients": ["Quinoa", "Gurken", "Paprika", "Minze", "Zitrone"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/7434292/pexels-photo-7434292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Wiener Schnitzel mit Kartoffelsalat",
@@ -340,7 +318,7 @@
       "category": "MEAT",
       "price": 12.49,
       "ingredients": ["Kalbfleisch", "Panade", "Kartoffelsalat"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/19396433/pexels-photo-19396433/free-photo-of-abendessen-kostlich-lecker-stillleben.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Linsensuppe mit Würstchen",
@@ -348,7 +326,7 @@
       "category": "MEAT",
       "price": 7.75,
       "ingredients": ["Linsen", "Würstchen", "Gemüse"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Falafel Wrap mit Tahini-Sauce",
@@ -356,7 +334,7 @@
       "category": "VEGAN",
       "price": 8.99,
       "ingredients": ["Falafel", "Wrap", "Tahini-Sauce", "Gemüse"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/107527/pexels-photo-107527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Griechischer Bauernsalat",
@@ -364,7 +342,7 @@
       "category": "VEGETARIAN",
       "price": 8.25,
       "ingredients": ["Gurken", "Tomaten", "Oliven", "Feta-Käse", "Dressing"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Ratatouille mit Kräuterbaguette",
@@ -372,7 +350,7 @@
       "category": "VEGAN",
       "price": 9.75,
       "ingredients": ["Gemüse", "Tomaten", "Kräuterbaguette"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/7439978/pexels-photo-7439978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Gnocchi mit Pesto",
@@ -380,7 +358,7 @@
       "category": "VEGETARIAN",
       "price": 8.49,
       "ingredients": ["Gnocchi", "Pesto", "Parmesan"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/6659552/pexels-photo-6659552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Gebratener Lachs mit Gemüse",
@@ -388,7 +366,7 @@
       "category": "MEAT",
       "price": 14.99,
       "ingredients": ["Lachsfilet", "Gemüse"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Kartoffelgratin mit Broccoli",
@@ -396,7 +374,7 @@
       "category": "VEGETARIAN",
       "price": 9.49,
       "ingredients": ["Kartoffeln", "Broccoli", "Käse", "Sahne"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/9220890/pexels-photo-9220890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Gemüseburger mit Süßkartoffel-Pommes",
@@ -404,7 +382,7 @@
       "category": "VEGAN",
       "price": 10.25,
       "ingredients": ["Gemüseburger", "Brötchen", "Süßkartoffeln"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/18811742/pexels-photo-18811742/free-photo-of-gemuse-fleisch-hamburger-pfeffer.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Gyros-Pfanne mit Tzatziki",
@@ -412,7 +390,7 @@
       "category": "MEAT",
       "price": 11.75,
       "ingredients": ["Gyros", "Gemüse", "Tzatziki"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/9337073/pexels-photo-9337073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Mediterraner Nudelsalat",
@@ -420,7 +398,7 @@
       "category": "VEGETARIAN",
       "price": 7.99,
       "ingredients": ["Nudeln", "Tomaten", "Oliven", "Feta-Käse", "Dressing"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/803963/pexels-photo-803963.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Hähnchenschnitzel mit Pommes",
@@ -428,7 +406,7 @@
       "category": "MEAT",
       "price": 10.99,
       "ingredients": ["Hähnchenschnitzel", "Panade", "Pommes frites"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/1352274/pexels-photo-1352274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Kichererbsencurry mit Basmatireis",
@@ -436,7 +414,7 @@
       "category": "VEGAN",
       "price": 9.25,
       "ingredients": ["Kichererbsen", "Currypaste", "Basmatireis"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Pizza Margherita",
@@ -444,7 +422,7 @@
       "category": "VEGETARIAN",
       "price": 8.75,
       "ingredients": ["Pizza Teig", "Tomatensauce", "Mozzarella", "Basilikum"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Rinderbraten mit Rotweinsauce",
@@ -452,7 +430,7 @@
       "category": "MEAT",
       "price": 14.49,
       "ingredients": ["Rinderbraten", "Rotweinsauce", "Beilagen"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/299347/pexels-photo-299347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Gemüse-Pfannkuchen",
@@ -460,7 +438,7 @@
       "category": "VEGETARIAN",
       "price": 9.49,
       "ingredients": ["Pfannkuchen", "Gemüse"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/65170/pexels-photo-65170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Falafel-Salat mit Joghurtdressing",
@@ -468,7 +446,7 @@
       "category": "VEGAN",
       "price": 9.99,
       "ingredients": ["Salat", "Falafel", "Joghurtdressing"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/2862154/pexels-photo-2862154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Kartoffel-Rucola-Pfanne",
@@ -476,7 +454,7 @@
       "category": "VEGETARIAN",
       "price": 8.99,
       "ingredients": ["Kartoffeln", "Rucola", "Zitrone"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/10368852/pexels-photo-10368852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Gyros Wrap mit Tzatziki",
@@ -484,7 +462,7 @@
       "category": "MEAT",
       "price": 9.75,
       "ingredients": ["Gyros", "Wrap", "Tzatziki", "Gemüse"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/860620/pexels-photo-860620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Kürbisrisotto mit Parmesan",
@@ -492,7 +470,7 @@
       "category": "VEGETARIAN",
       "price": 10.25,
       "ingredients": ["Kürbis", "Risotto-Reis", "Parmesan", "Kräuter"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/2067418/pexels-photo-2067418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "name": "Gebratene Forelle mit Petersilienkartoffeln",
@@ -500,7 +478,7 @@
       "category": "MEAT",
       "price": 13.99,
       "ingredients": ["Forelle", "Petersilienkartoffeln", "Gemüse"],
-      "imageUrl": ""
+      "imageUrl": "https://images.pexels.com/photos/11776375/pexels-photo-11776375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ]
 }
