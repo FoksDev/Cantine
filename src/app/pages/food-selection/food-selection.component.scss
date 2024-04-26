@@ -1,3 +1,210 @@
-:host {
+// Filter-Buttons
+.filter{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.filterButtons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.filterButtons button{
+  color: rgb(255, 255, 255);
+  background: #077cca21;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+}
+
+.filterActive{
+  border: solid 2px rgb(8, 118, 207);
+}
+
+
+// Drop-Down Filter-Button
+.dropdown {
+  display: inline-block;
+  position: relative;
+  padding-left: 200px;
+  z-index: 10;
+}
+
+.dd-button {
+  display: inline-block;
+  border: 1px solid rgb(7, 92, 204);
+  border-radius: 20px;
+  color: #ffff;
+  padding: 10px 30px 10px 20px;
+  background-color: #ffffff11;
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+  
+}
+
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dd-button:hover {
+  background-color: #1584ce44;
+}
+
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #0b88d1;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  color: #ffff;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  backdrop-filter: blur(20px);
+  background-color: #1191cc00;
+  list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+} 
+
+.dd-input:checked + .dd-menu {
   display: block;
+} 
+
+.dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li:hover {
+  background-color: #0f66c981;
+}
+
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+.dd-menu li.divider{
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+
+// Essensplan Cards
+
+.foodcard{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: auto;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+}
+ 
+.card {
+  width: 190px;
+  padding: .4em;
+  border: 1px solid #ffffff22;
+  background-color: #282c34;
+  background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
+  box-shadow: 0 7px 20px 5px #00000088;
+  border-radius: .7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  transition: .5s all;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image-container{
+  position: relative;
+  .card-image {
+    width: 100%;
+    height: 130px;
+    border-radius: 6px 6px 0 0;
+    object-fit: cover;
+  }
+  .price{
+    color: #ffff;
+    position: absolute;
+    z-index: 10;
+    background: #077d9b;
+    border-radius: 20px;
+    padding: 3px;
+  }
+}
+
+.card-image:hover {
+  transform: scale(1.020);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  padding: 10px 7px 0px;
+}
+
+.heading {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  padding: 7px;
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+.warenkorbButton{
+  cursor: pointer;
+  width: 177px;
+  height: 22px;
+  color: #ffff;
+  background: #156fd623;
+  backdrop-filter: blur(20px);
+  border-radius: 20px; 
+  border: 1px solid #ffffff22;
 }

@@ -4,35 +4,50 @@
       "email": "max.mustermann@example.com",
       "password": "pass123",
       "firstName": "Max",
+      "age":"30",
+      "height":"1.78",
       "lastName": "Mustermann",
+      "location":"Finnland Tampere",
       "imageUrl": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "email": "sabine.mueller@example.com",
       "password": "pass456",
+      "age":"22",
+      "height":"1.70",
       "firstName": "Sabine",
       "lastName": "Müller",
+      "location":"Deutschland Sachsen",
       "imageUrl": "https://images.pexels.com/photos/943084/pexels-photo-943084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "email": "hans.schmidt@example.com",
       "password": "pass789",
+      "age":"28",
+      "height":"1.80",
       "firstName": "Hans",
       "lastName": "Schmidt",
+      "location":"Deutschland Hamburg",
       "imageUrl": "https://images.pexels.com/photos/1080213/pexels-photo-1080213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "email": "lisa.meier@example.com",
       "password": "pass987",
+      "age":"19",
+      "height":"1.68",
       "firstName": "Lisa",
       "lastName": "Meier",
+      "location":"Frankreich Paris",
       "imageUrl": "https://images.pexels.com/photos/1499327/pexels-photo-1499327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "email": "alexander.huber@example.com",
       "password": "pass654",
+      "age":"23",
+      "height":"1.78",
       "firstName": "Alexander",
       "lastName": "Huber",
+      "location":"Deutschland Sachsen",
       "imageUrl": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ],

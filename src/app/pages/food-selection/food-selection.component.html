@@ -1,6 +1,3 @@
-<p>food-selection works!</p>
-,
-
 <!--
 
   Vorgegeben;
@@ -11,5 +8,53 @@
 
   Aufgaben:
   Konzeption Darstellung und Prozess der Wochenansicht / Auswahl der Gerichte
+  
+  
+  
+-->
 
- -->
+<div class="filter">
+  <div class="filterButtons">
+    <button [ngClass]="{'filterActive': activeFilter.includes('VEGAN')}" (click)="toggleFilter('VEGAN')" >Vegan</button>
+    <button [ngClass]="{'filterActive': activeFilter.includes('VEGETARIAN')}" (click)="toggleFilter('VEGETARIAN')" >Vegetarisch</button>
+    <button [ngClass]="{'filterActive': activeFilter.includes('MEAT')}" (click)="toggleFilter('MEAT')" >Fleisch</button>
+    <label class="dropdown">
+  
+      <div class="dd-button">{{activeWeekDay}}</div>
+    
+      <input type="checkbox" class="dd-input" id="test">
+    
+      <ul class="dd-menu">
+        <li [ngClass]="{'filterActive': activeWeekDay == 'Montag'}" (click)="getMeals('Montag')" >Montag</li>
+        <li [ngClass]="{'filterActive': activeWeekDay == 'Dienstag'}" (click)="getMeals('Dienstag')">Dienstag</li>
+        <li [ngClass]="{'filterActive': activeWeekDay == 'Mittwoch'}" (click)="getMeals('Mittwoch')">Mittwoch</li>
+        <li [ngClass]="{'filterActive': activeWeekDay == 'Donnerstag'}" (click)="getMeals('Donnerstag')">Donnerstag</li>
+        <li [ngClass]="{'filterActive': activeWeekDay == 'Freitag'}" (click)="getMeals('Freitag')">Freitag</li>
+        <li [ngClass]="{'filterActive': activeWeekDay == 'Sammstag'}" (click)="getMeals('Samstag')" >Samstag</li>
+        <li [ngClass]="{'filterActive': activeWeekDay == 'Sonntag'}" (click)="getMeals('Sonntag')" >Sonntag</li>
+        <li class="divider"></li>
+      </ul>
+    </label>
+  </div>
+
+
+</div>
+
+
+<div id="foodcard" class="foodcard">
+  @for (meal of meals; track $index) {
+  
+  <div class="card">
+    <div class="card-image-container">
+      <div class="price">{{meal.price}}€</div>
+      <img  class="card-image" [src]="meal.imageUrl">
+    </div>
+    <div class="category">{{meal.category}}</div>
+    <div class="heading"><span>{{meal.description}}</span>
+        <div class="author"> <button (click)="addToShoppingCart(meal)" class="warenkorbButton">Nehme ich!</button></div> 
+    </div>
+  </div>
+}
+</div>
+
+<app-contact-form id="über uns"></app-contact-form>

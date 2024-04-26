@@ -1,4 +1,3 @@
-<p>profile works!</p>,
 
 <!--
 
@@ -12,3 +11,22 @@
   Auflistung der gebuchten Gerichte (für später)
 
  -->
+
+  <div class="personal-info">
+    <div class="personal-info-card">
+      <h2>Persönliche Details</h2>
+       <img [src]="savedUser.imageUrl" > 
+      <div class="personal-info-titles">
+        <span>Name: {{savedUser.firstName}} {{savedUser.lastName}}</span>
+        <span>Alter: {{savedUser.age}}</span>
+        <span>Standort: {{savedUser.location}}</span>
+        <span>Größe: {{savedUser.height}} cm</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="personal-information-more">
+    <div class="personal-infomation-more-card">
+
+    </div>
+  </div>

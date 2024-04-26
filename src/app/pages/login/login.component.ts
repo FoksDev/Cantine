@@ -2,25 +2,32 @@ import { CommonModule } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
+  EventEmitter,
+  Output,
   inject,
   type OnInit,
 } from '@angular/core';
 import { UserService } from '../../services/user.service';
 import { Router, RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { transition } from '@angular/animations';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, FormsModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LoginComponent implements OnInit {
+  @Output() onCloseEvent = new EventEmitter();
+  @Output() onSuccesEvent = new EventEmitter();
   errorMessage: string | null = null;
 
-  email = '';
-  password = '';
+  email = 'test1';
+  password = 'test@1';
+  islogin = true;
 
   userService = inject(UserService);
   routerService = inject(Router);
@@ -32,6 +39,7 @@ export class LoginComponent implements OnInit {
   }
 
   handleSubmit() {
+    console.log('hallo',this.email,this.password);
     this.errorMessage = null;
 
     if (!this.email || !this.password) {
@@ -39,18 +47,38 @@ export class LoginComponent implements OnInit {
       return;
     }
 
-    this.onLogin();
+    if (this.islogin) {
+      this.onLogin();
+    }
+    else {
+      console.log('SignUp');
+    }
   }
 
   async onLogin() {
     const success = await this.userService.login(this.email, this.password);
 
     if (success) {
-      // Set email to local storage
       window.localStorage.setItem('email', this.email);
-      this.routerService.navigateByUrl('wochenplan');
+      this.routerService.navigate(['/']);
+      this.onClose();
+      this.onSucces();
     } else {
       this.errorMessage = 'Wrong Email or Password!';
     }
+  }
+  test(name:string){
+    console.log(name)
+  }
+  toggleLogin(){
+    this.islogin = !this.islogin
+  }
+
+  onClose() {
+    this.onCloseEvent.emit();
+  }
+
+  onSucces() {
+    this.onSuccesEvent.emit();
   }
 }

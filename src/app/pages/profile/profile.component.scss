@@ -1,3 +1,37 @@
-:host {
-  display: block;
+.personal-info{
+  color: #ffffff;
+}
+
+.personal-info .personal-info-card{
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px #ffffff;
+  width: 400px;
+  height: 700px;
+  position: absolute;
+  left: 100px;
+  bottom: 70px;
+  z-index: 1;
+}
+
+.personal-info .personal-info-card h2{
+  text-decoration: overline;
+  padding: 4px;
+  display: flex; 
+  justify-content: center;
+}
+
+.personal-info .personal-info-card img{
+  width: 230px;
+  height: 290px;
+  padding-left: 80px;
+}
+
+.personal-info .personal-info-card .personal-info-titles{
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  flex-direction: column;
 }

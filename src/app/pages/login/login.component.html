@@ -1,4 +1,3 @@
-<p>login works!</p>,
 
 <!--
 
@@ -11,4 +10,85 @@
 
   Die Methode onLogin() soll checken, ob es in der db.json einen User mit der entsprechenden Email- und Passwortkombination gibt.
 
+<div class="button">
+   <button (click)="test('hello')">Login</button>
+  </div>
  -->
+
+  <!--LoginBox-->
+  <div class="loginbox">
+    <!--LoginBox Part 1-->
+    <div class="one">
+    @if (islogin) {
+        <div class="form-details">
+            <h2>Welcome Back</h2>
+            <p>Please log in using your personal information to stay connected with us.</p>
+        </div>
+    }
+    @else {
+        <div class="form-details">
+            <h2>Create Account</h2>
+            <p>To become a part of our community, please sign up using your personal information.</p>
+        </div>
+    }
+    </div>    
+    <!--LoginBox Part 2-->
+    <div class="two">
+        <div class="closeicon">
+            <span (click)="onClose()" class="close-btn material-symbols-rounded">close</span>
+        </div>
+        @if (islogin) {
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form (submit)="handleSubmit()">
+                    <div class="input-field">
+                        <input [(ngModel)]="email" name="email" type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input [(ngModel)]="password" name="password" type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a href="#" class="forgot-pass-link">Forgot password?</a>
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="bottom-link">
+                    Don't have an account?
+                    <span (click)="toggleLogin()" id="signup-link">Signup</span>
+                </div>
+            </div>
+        }
+        @else {
+            <div class="form-content">
+                <h2>SIGNUP</h2>
+                <form (submit)="handleSubmit()">
+                    <div class="input-field">
+                        <input [(ngModel)]="email" name="email" type="text" required>
+                        <label>Enter your email</label>
+                    </div>
+                    <div class="input-field">
+                        <input [(ngModel)]="password" name="password" type="password" required>
+                        <label>Create password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I agree the
+                            <a href="#" class="option">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already have an account? 
+                    <span (click)="toggleLogin()" id="login-link">Login</span>
+                </div>
+            </div> 
+        }
+
+
+        <!-- <p>Email:{{email}}</p>
+            <p>islogin:{{islogin}}</p>
+            <p>Password:{{password}}</p>-->
+    </div>
+  </div>
