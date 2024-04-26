@@ -1,78 +1,102 @@
 <!--Header-->
 <header>
-    <nav class="navbar">
-        <span class="hamburger-btn material-symbols-rounded">menu</span>
-        <a href="#" class="logo">
-            <img src="/assets/img/logo.png" alt="logo">
-            <h2>FoodVerse</h2>
-        </a>
-        <ul class="links">
-            <li><a [routerLink]="['']">Home</a></li>
-            <li><a href="#wochenplan">Wochenplan Gerichte</a></li>
-            <li><a id="Gerichtsauswahl">Gerichtsauswahl</a></li>
-            <li><a href="#über uns">Über uns</a></li>
-        </ul>
-            <button (click)="handleButton()" class="login-btn">{{isLoggedIn?'Abmelden':'Login/Register'}}</button>
-            @if (isLoggedIn) {
+  <nav class="navbar">
+    <span class="hamburger-btn material-symbols-rounded">menu</span>
+    <a href="#" class="logo">
+      <img src="/assets/img/logo.png" alt="logo" />
+      <h2>FoodVerse</h2>
+    </a>
+    <ul class="links">
+      <li><a [routerLink]="['']">Home</a></li>
+      <li><a href="#wochenplan">Wochenplan Gerichte</a></li>
+      <li><a id="Gerichtsauswahl">Gerichtsauswahl</a></li>
+      <li><a href="#über uns">Über uns</a></li>
+    </ul>
+    <button (click)="handleButton()" class="login-btn">
+      {{ isLoggedIn ? "Abmelden" : "Login/Register" }}
+    </button>
+    @if (isLoggedIn) {
 
-                <div class="user-profile-drop-down-button">
-                <span class="material-symbols-rounded iconspan">person</span>
-                <div class="user-profile-drob-down-button-content">
-                    <a [routerLink]="['profil']">Mein Account</a>
-                    <a >Nutzer Einstellungen</a>
-                </div>
-                </div>
+    <div class="user-profile-drop-down-button">
+      <span class="material-symbols-rounded iconspan">person</span>
+      <div class="user-profile-drob-down-button-content">
+        <a [routerLink]="['profil']">Mein Account</a>
+        <a>Nutzer Einstellungen</a>
+      </div>
+    </div>
 
-            <span (click)="toggleShopping()" class="material-symbols-rounded iconspan">shopping_cart</span>
-            }
-    </nav>
+    <span (click)="toggleShopping()" class="material-symbols-rounded iconspan"
+      >shopping_cart</span
+    >
+    }
+  </nav>
 </header>
 
 <div class="routcontainer">
-    <div class="routcontainer2">
-        <router-outlet id="wochenplan"></router-outlet>
-    </div>
-    @if (isShoppingCartOpen) {
-    <div class="routcontainer3">
-        <div class="shoppingcart">
-            <div class="sidebar">
-                <h1>EinkaufsWagen</h1>
-                <div class="shoptitles">
-                    <p>Beschreibung</p>
-                    <p>Kategorie</p>
-                    <p>Entfernen</p>
-                    <p>Preis</p>
-                </div>
-                <hr style="border:0.24px outset;background-color:#000000;color:#000000;height:0.24px;width:90%" />
-                <div class="scrolloverflow">
-                @for (meal of selectedMeals|async; track $index) {
-                <div class="buy-system">
-                    <div class="shopping-cart">
-                        <img [src]="meal.imageUrl" >
-                        <div class="kategory">
-                        <span>{{meal.category}}</span>
-                        </div>
-                        <div class="delete">
-                            <span (click)="deleteFromShoppingCart(meal)" class="material-symbols-rounded delete-button">delete</span>
-                        </div>
-                        <div class="price">
-                            <span>{{meal.price}}€</span>
-                        </div>
-                    </div>
-                </div>
-                <hr style="border:0.24px outset;background-color:#000000;color:#000000;height:0.24px;width:90%" />
-            }
+  <div class="routcontainer2">
+    <router-outlet id="wochenplan"></router-outlet>
+  </div>
+  @if (isShoppingCartOpen) {
+  <div class="routcontainer3">
+    <div class="shoppingcart">
+      <div class="sidebar">
+        <h1>EinkaufsWagen</h1>
+        <div class="shoptitles">
+          <p>Beschreibung</p>
+          <p>Kategorie</p>
+          <p>Entfernen</p>
+          <p>Preis</p>
+        </div>
+        <hr
+          style="
+            border: 0.24px outset;
+            background-color: #000000;
+            color: #000000;
+            height: 0.24px;
+            width: 90%;
+          "
+        />
+        <div class="scrolloverflow">
+          @for (meal of selectedMeals|async; track $index) {
+          <div class="buy-system">
+            <div class="shopping-cart">
+              <img [src]="meal.imageUrl" />
+              <div class="kategory">
+                <span>{{ meal.category }}</span>
+              </div>
+              <div class="delete">
+                <span
+                  (click)="deleteFromShoppingCart(meal)"
+                  class="material-symbols-rounded delete-button"
+                  >delete</span
+                >
+              </div>
+              <div class="price">
+                <span>{{ meal.price }}€</span>
+              </div>
+            </div>
+          </div>
+          <hr
+            style="
+              border: 0.24px outset;
+              background-color: #000000;
+              color: #000000;
+              height: 0.24px;
+              width: 90%;
+            "
+          />
+          }
         </div>
         <div class="totalprice">
-            <p>GesamtPreis: {{ totalPrice|async | number: '1.2-2'}} €</p>
+          <p>GesamtPreis: {{ totalPrice | async | number : "1.2-2" }} €</p>
         </div>
-                <div class="shopping_button">
-                <button class="shopping__cart_button">Kaufen</button>
-            </div>
-            </div>
+        <div class="shopping_button">
+          <button class="shopping__cart_button">Kaufen</button>
         </div>
+      </div>
     </div>
-    }
+  </div>
+  }
 </div>
 
 <!--Footer--
@@ -93,25 +117,20 @@
     <p>&copy;2024 Melvin Paul Hanns | Project Angular Praktikum</p>
 </footer> -->
 
-
-
 <div class="hexagon-main">
-    <div class="hexagon">
-        @for (item of hexagons; track $index) {
-            <div class="filter">
-            <div class="maindiv" [ngClass]="{'hidden': item == false}" ></div>
-        </div>
-        }
+  <div class="hexagon">
+    @for (item of hexagons; track $index) {
+    <div class="filter" [ngClass]="{ hidden: item == false }">
+      <div class="maindiv"></div>
     </div>
+    }
   </div>
-
-
-
-
+</div>
 
 <!--App-login dialog-->
 <dialog #login>
-    <app-login (onSuccesEvent)="onSucces()" (onCloseEvent)="closeLogin()"></app-login>
+  <app-login
+    (onSuccesEvent)="onSucces()"
+    (onCloseEvent)="closeLogin()"
+  ></app-login>
 </dialog>
-
-
